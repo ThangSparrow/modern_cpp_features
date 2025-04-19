@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+      {
+          "name": "Debug single test", // enables debugging of a single test in the testing browser
+          "type": "cppdbg",
+          "request": "launch",
+          "cwd": "${cmake.testWorkingDirectory}",
+          "program": "${cmake.testProgram}",
+          "args": [ "${cmake.testArgs}"],
+      }
+  ]
+}
